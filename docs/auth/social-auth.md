@@ -104,7 +104,7 @@ function FacebookSignIn() {
   return (
     <Button
       title="Facebook Sign-In"
-      onPress={() => onFacebookButtonPress().then(() => console.log('Signed in with Facebook!')}
+      onPress={() => onFacebookButtonPress().then(() => console.log('Signed in with Facebook!'));}
     />
   );
 }
